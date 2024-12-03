@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node api/json-server.js",
-    "vercel-build": "node api/json-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+  "json-server": "^1.0.0-beta.3"
   },
   "engines": {
     "node": "22.x"
